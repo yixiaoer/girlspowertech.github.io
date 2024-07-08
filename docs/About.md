@@ -18,8 +18,6 @@
 
 我用 AI 生成了一个 Logo （欢迎 UI 姐妹自告奋勇再设计一些～）
 
-![girlspowertech.png](./girlspowertech.png)
-
 ## 2. 协作
 
 ### 2.1 工具
