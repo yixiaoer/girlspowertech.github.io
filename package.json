@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && mv CNAME_TMP dist/CNAME",
-    "deploy": "gh-pages -d dist"
+    "build": "vite build && cp CNAME_TMP dist/CNAME",
+    "deploy": "pnpm build && gh-pages -d dist"
   },
   "dependencies": {
     "react-crossword": "git+https://github.com/anig1scur/react-crossword.git",
