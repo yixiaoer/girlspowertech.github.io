@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import NameCross from '@/components/namecross';
 import Header from '@/components/header';
+import Member from '@/components/member';
 
 const Home = () => {
   const [name, setName] = useState<string>('');
@@ -13,9 +14,7 @@ const Home = () => {
           setName(name);
         } } />
       </div>
-      <div className='name'>
-        { name && <h3>{ name }</h3> }
-      </div>
+     <Member name={ name } />
     </div>
   </div>
 };

@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && mv CNAME_TMP dist/CNAME",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {

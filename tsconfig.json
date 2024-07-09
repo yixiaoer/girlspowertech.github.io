@@ -18,7 +18,10 @@
     "paths": {
       "@/*": [
         "*"
-      ]
+      ],
+      "@assets/*": [
+        "public/*"
+      ],
     },
     "types": [
       "node"
