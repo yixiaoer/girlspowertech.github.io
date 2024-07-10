@@ -1,11 +1,11 @@
 {
   "name": "girlspowertech",
-  "description": "The homepage for our progam",
+  "description": "The homepage for our program",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build && cp CNAME_TMP dist/CNAME",
+    "dev": "vite --host",
+    "build": "vite build",
     "deploy": "pnpm build && gh-pages -d dist"
   },
   "dependencies": {
