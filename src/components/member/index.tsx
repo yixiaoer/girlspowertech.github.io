@@ -24,12 +24,12 @@ const Member: FC<{ name: string }> = ({ name }) => {
       <div className="meta">
         <img className="avatar" src={ userDetails?.avatarURL || Avatar } alt={ name } />
         <p className="name">{ name }</p>
-      </div>
-      <div className="intro">
-        { userDetails?.introduction ||
-          `Blabala  balabala  balabala  babababaaa lalallalala balabala
+        <div className="intro">
+          { userDetails?.introduction ||
+            `Blabala  balabala  balabala  babababaaa lalallalala balabala
         balabala balabala
         balabala balabala`}
+        </div>
       </div>
     </div>
   );

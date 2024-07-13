@@ -30,19 +30,15 @@
         "avatarURL": "/avatars/ian.png"
     },
     {
-        "name": "MENRU",
-        "nameClue": "A given name."
-    },
-    {
         "name": "NORA",
         "nameClue": "A common feminine given name.",
-        "introduction": "Nora正在转码自学中, INFJ(F和J不固定), Nora这个英文名是因为简短好记.",
+        "introduction": "Nora正在转码自学中，INFJ(F和J不固定)，Nora这个英文名是因为简短好记。",
         "avatarURL": "/avatars/nora.png"
     },
     {
         "name": "Fish",
         "nameClue": "A common given name.",
-        "introduction": "fish 是一名转码开发未半而中道崩殂的产品,正在努力自学的FE,fish 是读书期间好朋友因为我的中文名谐音起的昵称。",
+        "introduction": "fish 是一名转码开发未半而中道崩殂的产品，正在努力自学的FE，fish 是读书期间好朋友因为我的中文名谐音起的昵称。",
         "avatarURL": "/avatars/fish.svg"
     }
 ]
