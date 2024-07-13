@@ -11,8 +11,13 @@
     pnpm run dev
 
     ```
-  - 集成 github ci 自动上传到 gh-pages 分支。也可以手动部署，后面我将放开 `gh-pages` 分支的 push 权限。
+  - 集成 github ci 自动上传到 gh-pages 分支。也可以执行下列命令手动部署。
     ```sh
     pnpm build
     pnpm run deploy
     ```
+
+3. 更新 profile
+   1. 编辑 `workers.json`
+   2. R 环境下运行 `cross.r`
+

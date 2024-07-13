@@ -8,12 +8,25 @@ interface ArticleProps {
   filename: string;
 }
 
+type LinkRendererProps = {
+  href?: string;
+  children?: React.ReactNode;
+};
+
+function LinkRenderer(props: LinkRendererProps) {
+  return (
+    <a href={ props.href } target="_blank" rel="noreferrer">
+      { props.children }
+    </a>
+  );
+}
+
 const Article: React.FC<ArticleProps> = ({ filename }) => {
   const content = useArticle(filename);
 
   return (
     <div className="article">
-      <ReactMarkdown remarkPlugins={ [remarkGfm] }>
+      <ReactMarkdown remarkPlugins={ [remarkGfm] } components={ { a: LinkRenderer } }>
         { content }
       </ReactMarkdown>
     </div>

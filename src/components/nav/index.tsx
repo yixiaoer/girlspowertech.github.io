@@ -7,12 +7,14 @@ import "./style.scss"
 const NavItems = [
   { name: 'Home', path: '/' },
   // { name: 'About', path: '/about' },
-  { name: 'Article', path: '/articles' },
+  { name: 'Article', path: '/articles' }
 ]
+
+const RItems = NavItems.slice().reverse();
 
 const Nav: React.FC = () => {
   const loc = useLocation();
-  const activeItem = NavItems.find(item => loc.pathname === item.path);
+  const activeItem = RItems.find(item => loc.pathname.startsWith(item.path));
   return (
     <nav>
       { NavItems.map(item => (

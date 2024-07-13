@@ -5,3 +5,7 @@
 https://www.fontsquirrel.com/license/plexifont-bv
 
 
+### 2. Notable
+
+https://online-fonts.com/fonts/notable
+
