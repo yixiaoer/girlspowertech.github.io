@@ -6,6 +6,7 @@ import "./style.scss";
 
 
 type nameCrossProps = {
+  className?: string;
   onSelect: (name: string) => void;
 }
 
@@ -20,21 +21,23 @@ const NameCross: FC<nameCrossProps> = ({ onSelect }) => {
   }, []);
 
   return (
-    <ThemeProvider theme={ {
-      focusBackground: 'pink',
-      highlightBackground: '#c3c3c3',
-    } }
-    >
-      <Crossword
-        ref={ crossword }
-        data={ data }
-        onCellSelected={ (
-          direction, number, row, col,
-        ) => {
-          number && onSelect(getWord(direction, number));
-        } }
-      />
-    </ThemeProvider>
+    <div className="crossword">
+      <ThemeProvider theme={ {
+        focusBackground: 'pink',
+        highlightBackground: '#e6e6e6',
+      } }
+      >
+        <Crossword
+          ref={ crossword }
+          data={ data }
+          onCellSelected={ (
+            direction, number, row, col,
+          ) => {
+            number && onSelect(getWord(direction, number));
+          } }
+        />
+      </ThemeProvider>
+    </div>
   );
 }
 

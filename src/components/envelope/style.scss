@@ -1,0 +1,46 @@
+.envelope {
+  cursor: pointer;
+  border-radius: 8px;
+  position: relative;
+  background-color: var(--bg-color);
+  color: var(--color);
+  padding: 10px 20px;
+  max-width: 680px;
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+    >h3 {
+      font-size: 32px;
+      margin: 10px 0;
+    }
+    .date {
+      font-size: 12px;
+    }
+  }
+
+  .tags {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+    flex-wrap: wrap;
+
+    >span {
+      background-color: var(--color);
+      color: var(--bg-color);
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+  }
+
+  .stamp {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+  }
+}

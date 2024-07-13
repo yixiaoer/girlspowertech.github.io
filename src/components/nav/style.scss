@@ -1,0 +1,19 @@
+nav {
+  display: flex;
+  flex-direction: column;
+
+  a {
+    font-size: 21px;
+    color: #191919;
+    letter-spacing: 1.3px;
+    text-decoration: none;
+    margin: 10px;
+
+    &.active,
+    &:hover {
+      font-weight: 600;
+      text-underline-offset: 3px;
+      text-decoration: underline;
+    }
+  }
+}

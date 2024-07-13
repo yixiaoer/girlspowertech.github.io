@@ -1,22 +1,21 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import NameCross from '@/components/namecross';
-import Header from '@/components/header';
 import Member from '@/components/member';
+import Layout from '@/components/layout';
 
 const Home = () => {
   const [name, setName] = useState<string>('');
-  return <div>
-    <Header />
-    <div className='content'>
-      <div className='cross'>
-        <NameCross onSelect={ (name) => {
-          console.log(name);
-          setName(name);
-        } } />
-      </div>
-     <Member name={ name } />
-    </div>
-  </div>
+
+  return (
+    <Layout
+      content={
+        <>
+          <NameCross onSelect={setName} />
+          <Member name={name} />
+        </>
+      }
+    />
+  );
 };
 
 export default Home;

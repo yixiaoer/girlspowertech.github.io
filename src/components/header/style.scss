@@ -10,8 +10,8 @@ header {
   .logo {
     margin: 20px 0;
     background-image: url("/logo.svg");
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -20,6 +20,7 @@ header {
   h1 {
     font-family: 'Notable';
     font-size: 52px;
+    margin-bottom: 15px;
   }
 
   div {
