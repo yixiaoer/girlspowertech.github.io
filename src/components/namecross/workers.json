@@ -40,5 +40,11 @@
         "nameClue": "A common given name.",
         "introduction": "fish 是一名转码开发未半而中道崩殂的产品，正在努力自学的FE，fish 是读书期间好朋友因为我的中文名谐音起的昵称。",
         "avatarURL": "/avatars/fish.svg"
+    },
+    {
+        "name": "Jingyi",
+        "nameClue": "A real given name.",
+        "introduction": "Jingyi 是一名喜欢艺术的CVer，对她来说美即快乐。",
+        "avatarURL": "/avatars/jingyi.png"
     }
 ]
