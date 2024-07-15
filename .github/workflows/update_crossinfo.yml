@@ -2,7 +2,10 @@ name: Cross Info Update
 
 on:
   push:
-    branches: main
+    branches:
+      - main
+    paths:
+      - 'src/components/namecross/workers.json'
 
 jobs:
   import-data:
