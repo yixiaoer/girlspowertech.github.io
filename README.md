@@ -19,5 +19,5 @@
 
 3. 更新 profile
    1. 编辑 `workers.json`
-   2. R 环境下运行 `cross.r`
+   2. R 环境下运行 `cross.r` (已集成 CI 自动更新)
 
