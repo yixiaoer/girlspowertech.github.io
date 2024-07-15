@@ -52,5 +52,11 @@
         "nameClue": "A real given name.",
         "introduction": "Jingyi 是一名喜欢艺术的CVer，对她来说美即快乐。",
         "avatarURL": "/avatars/jingyi.png"
+    },
+    {
+      "name": "Kk",
+      "nameClue": "A common given name.",
+      "introduction": "kk是喜欢喝酒蹦迪的准程序员",
+      "avatarURL": "/avatars/kk.png"
     }
 ]
