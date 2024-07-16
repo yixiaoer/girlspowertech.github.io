@@ -1,15 +1,17 @@
 body {
   padding: 0;
+  margin: 0;
+  height: 100vh;
   background-color: #FDFCF9;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
 #root {
-  max-width: max(75vw, 720px);
+  max-width: min(70vw, 1440px);
   margin: 0 auto;
 
   main {
-    margin-left: 20px;
+    margin-left: 210px;
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
@@ -20,7 +22,6 @@ body {
       flex: 1 0 auto;
       display: flex;
       align-items: flex-start;
-      justify-content: end;
       gap: 60px;
     }
 
@@ -33,11 +34,9 @@ body {
       flex-direction: column;
       gap: 20px;
       width: 100%;
-      margin-left: 180px;
     }
 
     .article {
-      margin-left: 180px;
       width: 100%;
     }
   }
