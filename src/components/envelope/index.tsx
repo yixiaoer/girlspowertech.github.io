@@ -1,6 +1,7 @@
 import React, { FC } from 'react';
 import Stamp from '@/components/stamp';
 import Logo from '@assets/logo.svg';
+import { motion } from 'framer-motion';
 import './style.scss';
 
 export type EnvelopeProps = {
@@ -49,9 +50,13 @@ const Envelope: FC<EnvelopeProps> = ({ title, date, tags, key, onClick }) => {
           </span>
         )) }
       </div>
-      <div className="stamp">
+      <motion.p
+        initial={ { rotate: 60 } }
+        animate={ { rotate: 0, translateY: "10px" } }
+        transition={ { duration: 0.6, bounce: 0.2 } }
+        className="stamp">
         <GirlsPowerTechStamp color='#f7f7f7' />
-      </div>
+      </motion.p>
     </div>
   );
 };
