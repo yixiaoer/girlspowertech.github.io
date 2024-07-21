@@ -35,11 +35,16 @@
         "avatarURL": "/avatars/fish.svg"
     },
     {
+        "name": "Yao",
+        "introduction": "Yao 是一名从CS转到UX的运维，ISFJ，想和大家一起做一些有趣、有价值的东西。",
+        "avatarURL": "/avatars/Yao.svg"
+    },
+    {
         "name": "zhouwen",
         "introduction": "舟问 entp 小狗对所有事情都好奇，努力 coding 支持 feminist projects！",
         "avatarURL": "/avatars/zhouwen.svg"
     },
-   {
+    {
         "name": "Jingyi",
         "introduction": "Jingyi 是一名喜欢艺术的CVer，对她来说美即快乐。",
         "avatarURL": "/avatars/jingyi.png"
