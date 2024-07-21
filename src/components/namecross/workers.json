@@ -1,25 +1,20 @@
 [
     {
-        "name": "CITRUS",
-        "nameClue": "A genus of flowering trees and shrubs in the rue family, Rutaceae."
+        "name": "CITRUS"
     },
     {
-        "name": "MEOW",
-        "nameClue": "The sound a cat makes."
+        "name": "MEOW"
     },
     {
-        "name": "ELENA",
-        "nameClue": "A popular feminine given name."
+        "name": "ELENA"
     },
     {
         "name": "EUNICE",
-        "nameClue": "A name of Greek origin meaning 'good victory'.",
         "avatarURL": "/avatars/eunice.svg",
         "introduction": "Eunice 是一名喜欢好看和有趣的交互设计的 FE。Eunice 想搞点事情。Eunice 在希腊语里是 “快乐的胜利” 之意。"
     },
     {
         "name": "GUOYI",
-        "nameClue": "A common given name.",
         "introduction": "Guoyi 喜欢写码也喜欢hiking，喜欢猫也喜欢狗。",
         "avatarURL": "/avatars/guoyi.png"
     },
@@ -31,31 +26,26 @@
     },
     {
         "name": "NORA",
-        "nameClue": "A common feminine given name.",
         "introduction": "Nora正在转码自学中，INFJ(F和J不固定)，Nora这个英文名是因为简短好记。",
         "avatarURL": "/avatars/nora.png"
     },
     {
         "name": "Fish",
-        "nameClue": "A common given name.",
         "introduction": "fish 是一名转码开发未半而中道崩殂的产品，正在努力自学的FE，fish 是读书期间好朋友因为我的中文名谐音起的昵称。",
         "avatarURL": "/avatars/fish.svg"
     },
     {
         "name": "zhouwen",
-        "nameClue": "A nickname that sounds a lot like my name",
         "introduction": "舟问 entp 小狗对所有事情都好奇，努力 coding 支持 feminist projects！",
         "avatarURL": "/avatars/zhouwen.svg"
     },
    {
         "name": "Jingyi",
-        "nameClue": "A real given name.",
         "introduction": "Jingyi 是一名喜欢艺术的CVer，对她来说美即快乐。",
         "avatarURL": "/avatars/jingyi.png"
     },
     {
       "name": "Kk",
-      "nameClue": "A common given name.",
       "introduction": "kk是喜欢喝酒蹦迪的准程序员",
       "avatarURL": "/avatars/kk.png"
     }
