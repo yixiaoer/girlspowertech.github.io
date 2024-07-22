@@ -6,7 +6,9 @@
         "name": "MEOW"
     },
     {
-        "name": "ELENA"
+        "name": "ELENA",
+        "introduction": "Elena正在从建筑设计转向UX设计方向。想做PM，但是更想做一个设计师，做有趣的项目会让Elena很有成就感。",
+        "avatarURL": "/avatars/xiaoyang.png"
     },
     {
         "name": "EUNICE",
