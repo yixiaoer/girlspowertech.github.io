@@ -12,7 +12,7 @@
     },
     {
         "name": "EUNICE",
-        "avatarURL": "/avatars/eunice.svg",
+        "avatarURL": "/avatars/eunice.png",
         "introduction": "Eunice 是一名喜欢好看和有趣的交互设计的 FE。Eunice 想搞点事情。Eunice 在希腊语里是 “快乐的胜利” 之意。"
     },
     {
@@ -22,7 +22,6 @@
     },
     {
         "name": "IAN",
-        "nameClue": "A common given name.",
         "introduction": "不想做产品的塔罗师不是好阿宅",
         "avatarURL": "/avatars/ian.png"
     },
