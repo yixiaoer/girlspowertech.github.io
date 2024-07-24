@@ -11,7 +11,7 @@ inputdata <- read_json("./src/components/namecross/workers.json", simplifyVector
 cw <- Crossword$new(rows = 10, columns = 10)
 my_wordlist <- data.frame(
     words = inputdata$name,
-    clues = inputdata$nameClue
+    clues = ""  # no need clues
 )
 cw_words <- my_wordlist[sample(nrow(my_wordlist)), ]
 

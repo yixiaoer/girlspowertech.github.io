@@ -1,6 +1,6 @@
 
-import React, { useContext, FC, useState, useCallback, useRef, useEffect } from 'react';
-import Crossword, { CrosswordContext, CrosswordImperative, ThemeProvider } from 'react-crossword';
+import React, { FC, useCallback, useRef, useEffect } from 'react';
+import Crossword, { CrosswordImperative, ThemeProvider } from 'react-crossword';
 import data, { getWord } from "./data";
 import "./style.scss";
 

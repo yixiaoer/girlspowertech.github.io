@@ -5,7 +5,6 @@ import coworkers from "@/components/namecross/workers.json";
 
 type memberProps = {
   name: string
-  nameClue?: string
   introduction?: string
   avatarURL?: string
 }
