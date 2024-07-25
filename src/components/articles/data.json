@@ -2,12 +2,22 @@
   {
     "title": "2024年8月周报",
     "date": "2024-08-13",
+    "desc": "只是个凑数的，让页面上多展示几个 card。",
     "tags": [
       "weekly-report",
       "八月周报"
     ],
     "id": "weekly-report-202408",
     "path": "public/docs/weekly-report-202408.md"
+  },
+  {
+    "title": "如何上手一个不熟悉的前端项目？",
+    "date": "2024-07-25",
+    "tags": [
+      "tutorial"
+    ],
+    "id": "how-to-start-a-project",
+    "path": "public/docs/how-to-start-a-project.md"
   },
   {
     "title": "2024年7月周报",

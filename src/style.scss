@@ -16,17 +16,22 @@ body {
     justify-content: space-between;
     margin-top: 50px;
     width: 85%;
-    gap: 50px;
+    gap: 80px;
 
     article {
-      flex: 1 0 auto;
+      flex: 1 1 auto;
+      min-width: 0;
       display: flex;
       align-items: flex-start;
       gap: 60px;
+      line-break: anywhere;
     }
 
     aside {
-      flex: 0 1 120px;
+      align-self: flex-start;
+      top: 80px;
+      position: sticky;
+      flex: 0 0 120px;
     }
 
     .article-list {
