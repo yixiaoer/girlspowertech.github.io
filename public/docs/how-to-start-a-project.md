@@ -11,9 +11,9 @@ tags:
 
 以下讨论限前端项目，限有一点点开发经验
 
-#### 0. 现代化前端项目
+#### 0. 前端项目工程化
 
-1. 通常采用以下结构
+1. 通常采用以下结构（可大致了解下这些目录 / 文件的作用是什么）
 
     ```
     project-root/
@@ -39,7 +39,7 @@ tags:
 
 #### 1. 了解一下这个项目的技术栈
 
-先确保能够在本地跑起来（node 环境 + README 写的那些 pnpm 相关的命令 ）。以主页这个项目为例，提取到的关键字其实就是：
+先确保能够在本地跑起来（node 环境 + README 写的那些 pnpm 相关的命令 ）。然后通过 README.md / package.json 等了解项目采用的技术栈。以主页这个项目为例，提取到的关键字其实就是：
 
 - React
 - tailwind （一个控制样式 CSS 库）
@@ -53,10 +53,11 @@ tags:
 
 你只需要意识到，这些花里胡哨的东西最终只不过变成 HTML + CSS + JavaScript 这三样东西的组合，你怎么改最终都只是这些产物。我们可以直接上手跑项目，对上面提到的每一 part 进行有目的性的修改，在本地产生变化，然后我们就不会觉得它是一个 myth 了。有了下面的 debug 经验，你对整个项目的了解会好很多，自信心 upup。
 
-1. 了解文件入口 -> 是如何渲染在页面上的 ？ 0. `index.html` 为默认入口 （这是一个国际惯例）
+1. 了解文件入口 -> 是如何渲染在页面上的 ？
+   1. `index.html` 为默认入口 （这是一个国际惯例）
 
-   1. [html 这里](https://github.com/girlspowertech/girlspowertech.github.io/blob/68be196c4801e84c504bf72b036bbf4013938b62/index.html#L15)引用了 `index.tsx`
-   2. `index.tsx` 这里[获取 root 元素](https://github.com/girlspowertech/girlspowertech.github.io/blob/68be196c4801e84c504bf72b036bbf4013938b62/src/index.tsx#L6-L13)，将整个 React 应用渲染在这里
+   2. [html 这里](https://github.com/girlspowertech/girlspowertech.github.io/blob/68be196c4801e84c504bf72b036bbf4013938b62/index.html#L15)引用了 `index.tsx`
+   3. `index.tsx` 这里[获取 root 元素](https://github.com/girlspowertech/girlspowertech.github.io/blob/68be196c4801e84c504bf72b036bbf4013938b62/src/index.tsx#L6-L13)，将整个 React 应用渲染在这里
 
 2. 以 tailwindcss 为例， 打开文档 https://tailwindui.com/documentation 随便选一个效果在项目内部进行删删改改
 3. 以 react router 为例，想新增 /new 这个路径，就在[这个文件](https://github.com/girlspowertech/girlspowertech.github.io/blob/main/src/routes.tsx)改改试试看有什么变化
